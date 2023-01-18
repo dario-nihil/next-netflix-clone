@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./banner.module.css";
 
 const Banner = ({ title, subTitle, imgUrl }) => {
@@ -17,17 +18,25 @@ const Banner = ({ title, subTitle, imgUrl }) => {
           <h3 className={styles.subTitle}>{subTitle}</h3>
           <div className={styles.playBtnWrapper}>
             <button className={styles.btnWithIcon} onClick={handleOnPlay}>
+              <Image
+                width={32}
+                height={32}
+                src="/static/play_arrow.svg"
+                alt="A play arrow icon "
+              />
               <span className={styles.playText}>Play</span>
             </button>
           </div>
         </div>
       </div>
-      <div
+      <Image
         className={styles.bannerImg}
-        style={{
-          backgroundImage: `url(${imgUrl})`,
-        }}
-      ></div>
+        src={imgUrl}
+        alt={title}
+        width={650}
+        height={400}
+        style={{ objectFit: "fill" }}
+      ></Image>
     </div>
   );
 };

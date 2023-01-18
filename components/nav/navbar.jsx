@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -24,7 +25,14 @@ const NavBar = ({ userName }) => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <Link className={styles.logoLink} href="/">
-          <div className={styles.logoWrapper}>Netflix</div>
+          <div className={styles.logoWrapper}>
+            <Image
+              src="/static/netflix.svg"
+              alt="Netflix logo"
+              width={128}
+              height={34}
+            />
+          </div>
         </Link>
 
         <ul className={styles.navItems}>
@@ -40,6 +48,12 @@ const NavBar = ({ userName }) => {
             <button className={styles.userNameBtn} onClick={handleShowDropdown}>
               <p className={styles.userName}>{userName}</p>
               {/** expand more icon */}
+              <Image
+                src="/static/expand_more.svg"
+                alt="Expand dropdown"
+                width={24}
+                height={24}
+              />
             </button>
 
             {showDropdown && (

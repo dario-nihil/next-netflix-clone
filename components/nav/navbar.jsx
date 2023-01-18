@@ -1,9 +1,12 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useState } from "react";
+
 import styles from "./navbar.module.css";
 
 const NavBar = ({ userName }) => {
   const router = useRouter();
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleOnClickHome = () => {
     router.push("/");
@@ -11,6 +14,10 @@ const NavBar = ({ userName }) => {
 
   const handleOnClickMyList = () => {
     router.push("/browse/my-list");
+  };
+
+  const handleShowDropdown = () => {
+    setShowDropdown((prevState) => !prevState);
   };
 
   return (
@@ -30,19 +37,21 @@ const NavBar = ({ userName }) => {
         </ul>
         <nav className={styles.navContainer}>
           <div>
-            <button className={styles.userNameBtn}>
+            <button className={styles.userNameBtn} onClick={handleShowDropdown}>
               <p className={styles.userName}>{userName}</p>
               {/** expand more icon */}
             </button>
 
-            <div className={styles.navDropdown}>
-              <div>
-                <Link className={styles.linkName} href="/login">
-                  Sign out
-                </Link>
-                <div className={styles.lineWrapper}></div>
+            {showDropdown && (
+              <div className={styles.navDropdown}>
+                <div>
+                  <Link className={styles.linkName} href="/login">
+                    Sign out
+                  </Link>
+                  <div className={styles.lineWrapper}></div>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </nav>
       </div>

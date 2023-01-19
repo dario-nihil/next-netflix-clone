@@ -22,8 +22,10 @@ const Card = ({ imgUrl, size }) => {
 
   return (
     <div className={styles.container}>
-      The Card Component
-      <motion.div className={cls(styles.imgMotionWrapper, classMap[size])} whileHover={{ scale: 1.2 }}>
+      <motion.div
+        className={cls(styles.imgMotionWrapper, classMap[size])}
+        whileHover={{ scale: 1.2 }}
+      >
         <Image
           onError={handleOnError}
           src={imgSrc}

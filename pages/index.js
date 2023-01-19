@@ -1,5 +1,6 @@
 import Head from "next/head";
 
+import SectionCards from "@/components/card/section-cards";
 import Card from "@/components/card/card";
 import NavBar from "@/components/nav/navbar";
 import Banner from "@/components/banner/banner";
@@ -24,9 +25,7 @@ export default function Home() {
         subTitle="a very cute dog"
         imgUrl="/static/clifford.webp"
       />
-      <Card imgUrl="/static/clifford.webp" size="large" />
-      <Card imgUrl="/static/clifford.webp" size="medium" />
-      <Card imgUrl="/static/clifford.webp" size="small" />
+      <SectionCards title="Disney" />
     </div>
   );
 }

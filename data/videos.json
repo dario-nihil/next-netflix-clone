@@ -2,840 +2,172 @@
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "4S02hVkktcI6bkdXarTSJ1dNKZ8",
+      "etag": "XBHVYS5G6seIUurbl-iwmNbGGY0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "JVtMWlosQrQ"
+        "videoId": "I_l4qI0nXz8"
       },
       "snippet": {
-        "publishedAt": "2023-01-18T21:00:06Z",
-        "channelId": "UC_F4Iy5korq2mEWZDQhG07w",
-        "title": "HOW WE SURVIVE SURFING 50FT WAIMEA BAY, BIGGEST SWELL OF THE SEASON!",
-        "description": "The waves get massive here in Hawaii with what is for sure the biggest swell this season. A lot of people went to Jaws but I ...",
+        "publishedAt": "2023-01-18T18:00:11Z",
+        "channelId": "UCnwY6fAhE3ePu0F2nMP-DLg",
+        "title": "Willow: Behind The Magic Trailer | Disney+",
+        "description": "Go into the unknown in #Willow: Behind The Magic an original documentary special debuts January 25 only on @DisneyPlus ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/JVtMWlosQrQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/I_l4qI0nXz8/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/JVtMWlosQrQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/I_l4qI0nXz8/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/JVtMWlosQrQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/I_l4qI0nXz8/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Koa Rothman",
+        "channelTitle": "Lucasfilm",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-18T21:00:06Z"
+        "publishTime": "2023-01-18T18:00:11Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "V1vdtBttEyTnIdPL9RaF44-SkhQ",
+      "etag": "p1HSeO9WOoaYRSUGVJU93wAY8hg",
       "id": {
         "kind": "youtube#video",
-        "videoId": "WMGXoMmLdVI"
+        "videoId": "bKh2G73gCCs"
       },
       "snippet": {
-        "publishedAt": "2023-01-19T06:17:38Z",
-        "channelId": "UCHfF8wFnipMeDpJf8OmMxDg",
-        "title": "Man dies while surfing off Dana Point",
-        "description": "An Orange County family is heartbroken after a man was killed while surfing over the weekend Subscribe to FOX 11 Los Angeles: ...",
+        "publishedAt": "2022-09-21T12:47:16Z",
+        "channelId": "UC_976xMxPgzIa290Hqtk-9g",
+        "title": "Strange World | Official Trailer",
+        "description": "Explore the adventures beyond our world in the NEW TRAILER for Disney's #StrangeWorld, in theaters November 23! The ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/WMGXoMmLdVI/default.jpg",
+            "url": "https://i.ytimg.com/vi/bKh2G73gCCs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/WMGXoMmLdVI/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bKh2G73gCCs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/WMGXoMmLdVI/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bKh2G73gCCs/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "FOX 11 Los Angeles",
+        "channelTitle": "Walt Disney Animation Studios",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-19T06:17:38Z"
+        "publishTime": "2022-09-21T12:47:16Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "katase2mPjRX9DAVRXmBsc7Xn4U",
+      "etag": "sqs8XoQv9fA4UZWWvf1s92O0ERU",
       "id": {
         "kind": "youtube#video",
-        "videoId": "vEMDiY2EtNc"
+        "videoId": "CaimKeDcudo"
       },
       "snippet": {
-        "publishedAt": "2023-01-16T19:00:22Z",
-        "channelId": "UCo_q6aOlvPH7M-j_XGWVgXg",
-        "title": "UNEXPECTED SURF SESSION TURNS PSYCHO!",
-        "description": "STAY PSYCHED MERCHANDISE: https://staypsyched.com - JAMIE O'BRIEN SURF SCHOOL TURTLE BAY HAWAII ...",
+        "publishedAt": "2021-09-29T13:00:05Z",
+        "channelId": "UC_976xMxPgzIa290Hqtk-9g",
+        "title": "Disney&#39;s Encanto | Official Trailer",
+        "description": "This November, find your magic. ✨   Watch the brand-new trailer for Disney's Encanto, coming to theaters this Thanksgiving.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/vEMDiY2EtNc/default.jpg",
+            "url": "https://i.ytimg.com/vi/CaimKeDcudo/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/vEMDiY2EtNc/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/CaimKeDcudo/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/vEMDiY2EtNc/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/CaimKeDcudo/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "Jamie O'Brien",
+        "channelTitle": "Walt Disney Animation Studios",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-16T19:00:22Z"
+        "publishTime": "2021-09-29T13:00:05Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "eTJMS7tRjZ88Rxwq9N9gc_ecH7M",
+      "etag": "AZApGcH-AuNvUaxnEQswGa2pBMY",
       "id": {
         "kind": "youtube#video",
-        "videoId": "kCDM_YAjCT0"
+        "videoId": "0-wPm99PF9U"
       },
       "snippet": {
-        "publishedAt": "2023-01-17T20:41:38Z",
-        "channelId": "UCf5CA0OsvhhU-6AcSjT1oKQ",
-        "title": "Pros CHARGE Shorebreak Slabs !!! Insane tube rides and Smoookifications !!!",
-        "description": "Pros charge heavy shorebreak slabs and pull off insane tube rides during solid winter swell 2023. Pro shorebreak chargers ...",
+        "publishedAt": "2022-09-09T23:42:33Z",
+        "channelId": "UCuaFvcY4MhZY3U43mMt1dYQ",
+        "title": "The Little Mermaid - Official Teaser Trailer",
+        "description": "Out of the sea, wish I could be... part of that world. Disney's The Little Mermaid is coming to theaters May 26, 2023. “The Little ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/kCDM_YAjCT0/default.jpg",
+            "url": "https://i.ytimg.com/vi/0-wPm99PF9U/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/kCDM_YAjCT0/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/0-wPm99PF9U/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/kCDM_YAjCT0/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/0-wPm99PF9U/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BEEFS T.V.",
+        "channelTitle": "Walt Disney Studios",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-17T20:41:38Z"
+        "publishTime": "2022-09-09T23:42:33Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "LJcV6eTSjuHpzcQkV9SsdQMC6Ak",
+      "etag": "qXqXkyprrv9da-A9ccsQ0HFkAA4",
       "id": {
         "kind": "youtube#video",
-        "videoId": "JtFPXg8LOgs"
+        "videoId": "Znsa4Deavgg"
       },
       "snippet": {
-        "publishedAt": "2023-01-18T21:20:31Z",
-        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
-        "title": "Gabriel Medina 9.23 - 3x World Champ Is A Threat To Take The 2023 Billabong Pro Pipeline",
-        "description": "3x World Champ Gabriel Medina is looking to start the season strong with another Pro Pipeline Championship. As the epicenter of ...",
+        "publishedAt": "2023-01-17T02:44:15Z",
+        "channelId": "UCZGYJFUizSax-yElQaFDp5Q",
+        "title": "The Mandalorian | Season 3 Official Trailer | Disney+",
+        "description": "Reunited. The Mandalorian, Season 3 March 1 on Disney+. The journeys of the Mandalorian through the Star Wars galaxy ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/JtFPXg8LOgs/default.jpg",
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/JtFPXg8LOgs/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/JtFPXg8LOgs/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "World Surf League",
+        "channelTitle": "Star Wars",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-18T21:20:31Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "GOZN1fWQRI5PNdtd4hglh5HzzF0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "ma67yOdMQfs"
-      },
-      "snippet": {
-        "publishedAt": "2021-01-23T17:00:15Z",
-        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
-        "title": "These Were The All-Time Surfing Moments Of The Year | Best Of 2020",
-        "description": "Well, that was a weird ride. Though it hasn't been easy, at least when we fixed our gaze on the ocean — or favorite place in the ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Red Bull Surfing",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-01-23T17:00:15Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "DZkH161fmiyAxueWy8uHWvVWSZc",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "c6lU-xYRjFA"
-      },
-      "snippet": {
-        "publishedAt": "2022-03-28T18:58:35Z",
-        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
-        "title": "The World Loves Surfing | Best Of Red Bull Surfing 2021",
-        "description": "What a year. 2021 was packed to the gills with everything the surfing world has to offer. Whether it be world title races, the biggest ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Red Bull Surfing",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-03-28T18:58:35Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "6ujvwmbWvtPluNgegE_l1ZYlDjM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Sju7AbV7wko"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-14T20:21:52Z",
-        "channelId": "UCJBWZDkunrjWh50Etxdys2g",
-        "title": "MASSIVE WAVES AT BLACK&#39;S BEACH AND LA JOLLA COVE",
-        "description": "MASSIVE WAVES AT BLACK'S BEACH AND LA JOLLA COVE. It's rare when San Diego surf gets big enough for La Jolla cove to ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Sju7AbV7wko/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Sju7AbV7wko/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Sju7AbV7wko/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "SoCal Surfer",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-14T20:21:52Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "iJGAmscAPItOl5u_L8gV7JfpLCA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Z0SjQfgheXs"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-18T18:00:23Z",
-        "channelId": "UCwJfDTNqtM5n-dQBfuuHzYw",
-        "title": "Surf Icon Laird Hamilton Opens His Home &amp; Shares Pool Training Routine | Gym &amp; Fridge | Men&#39;s Health",
-        "description": "Big-wave surfer and fitness icon Laird Hamilton gives us a run down of his current training routine, lets us in on how he prepares ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Z0SjQfgheXs/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Z0SjQfgheXs/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Z0SjQfgheXs/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Men's Health",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-18T18:00:23Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "XWtvBjXIcgplBqotd5t3ulHX2AA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "W7h-Yho8EB0"
-      },
-      "snippet": {
-        "publishedAt": "2019-06-15T15:21:45Z",
-        "channelId": "UCqhnX4jA0A5paNd1v-zEysw",
-        "title": "GoPro: Top 10 Surf Moments",
-        "description": "Celebrate International Surf Day with GoPro's Top 10 Surf Moments. Shot 100% on GoPro: http://bit.ly/2wUMwfI Get stoked and ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "GoPro",
-        "liveBroadcastContent": "none",
-        "publishTime": "2019-06-15T15:21:45Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "f1Fc94uJKvzXIojSmenFDP1ct_8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "pmlzdeZuAk8"
-      },
-      "snippet": {
-        "publishedAt": "2021-02-27T14:28:13Z",
-        "channelId": "UCxkIzPnPzWLz4IeuxIROflg",
-        "title": "What Surfing Is ACTUALLY Like as a Beginner",
-        "description": "See what it's actually like to surf as a beginner, including why it's fun and why it kind of sucks at times! Click below to join the ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Travis Marziani",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-02-27T14:28:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "aMQyOgILQ3ZFCfDCL5ZF3oh7WIk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CQ_s4yFffAo"
-      },
-      "snippet": {
-        "publishedAt": "2022-01-17T09:31:01Z",
-        "channelId": "UCa3UWVyvYgev0CSmzOHfYJQ",
-        "title": "Sardinia Surfing",
-        "description": "A surf trip around Sardinia with a good friend: We have visited the island in the summer of 2020, we had a really good time there ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CQ_s4yFffAo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CQ_s4yFffAo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CQ_s4yFffAo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Maurizio Amicucci",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-01-17T09:31:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "-the4aJO3KQDCoCbn3fl4Avate8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "xtHZKToMvus"
-      },
-      "snippet": {
-        "publishedAt": "2022-11-02T17:46:49Z",
-        "channelId": "UCTYHNSWYy4jCSCj1Q1Fq0ew",
-        "title": "Interlusion | A Billabong Surf Film Shot in the Mentawai Islands",
-        "description": "Welcome to the Interlusion. What happens when the best surf trip of former world champ Joel Parkinson's life happens years after ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/xtHZKToMvus/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/xtHZKToMvus/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/xtHZKToMvus/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Billabong",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-11-02T17:46:49Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "k-3FqnfFr8GkgdXW3oqoDZMfh2I",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Smgql_DESn8"
-      },
-      "snippet": {
-        "publishedAt": "2021-09-15T10:59:56Z",
-        "channelId": "UC9rMiEjNaCSsebs31MRDCRA",
-        "title": "Stray Kids &quot;Surfin&#39; (리노, 창빈, 필릭스)(Surfin&#39; (Lee Know, Changbin, Felix))&quot; Video",
-        "description": "Stray Kids(스트레이 키즈) \"Surfin' (리노, 창빈, 필릭스)(Surfin' (Lee Know, Changbin, Felix))\" Video Stray Kids THE 2ND ALBUM ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Smgql_DESn8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Smgql_DESn8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Smgql_DESn8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Stray Kids",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-09-15T10:59:56Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Qmbu-LGZAECf6boopfLVpNryMu4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "ul4OVcbULIA"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-16T02:14:01Z",
-        "channelId": "UCLdPicN16eAKPKir8EY1UXQ",
-        "title": "5 things I wish I knew when I started surfing",
-        "description": "Learning to surf or improving your surfing can feel like an up-hill battle at times. But there are actually some really powerful ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ul4OVcbULIA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ul4OVcbULIA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ul4OVcbULIA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Kale Brock",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-16T02:14:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "HAgMUNVmyDpgBP9WTT3T_F66QIg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "2SreM_OuIxc"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-17T11:00:04Z",
-        "channelId": "UCzcQOTuXYGuCvTekySb_CeQ",
-        "title": "Calm Waters - The Bukit",
-        "description": "This Bukit swell magnet rarely gets smaller than a couple of feet, making it a reliable 'go-to' in the off season. The extra size often ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/2SreM_OuIxc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/2SreM_OuIxc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/2SreM_OuIxc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Surfers of Bali",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-17T11:00:04Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ypIYK5zG32WvFmNJSd4Vlpy5834",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "alYVFdgy6Oo"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-11T19:29:28Z",
-        "channelId": "UCo_q6aOlvPH7M-j_XGWVgXg",
-        "title": "RAW POV | DANGEROUS SESSION SURFING PIPELINE WITH THIS CROWD!",
-        "description": "STAY PSYCHED MERCHANDISE: https://staypsyched.com - JAMIE O'BRIEN SURF SCHOOL TURTLE BAY HAWAII ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/alYVFdgy6Oo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/alYVFdgy6Oo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/alYVFdgy6Oo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Jamie O'Brien",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-11T19:29:28Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "-RIMSMCDhn9bTA1O8b-wagdaRp0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "iKDhxjGrcvA"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-12T19:08:14Z",
-        "channelId": "UC0uzP4XsyVMGr7NwBUYv4mA",
-        "title": "GIRL&#39;S SURF TRIP IN MENTAWAIS",
-        "description": "Hey everyone! I recently spend 10 days in the Mentawais with some girlfriends and we had the best time. Some people who don't ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/iKDhxjGrcvA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/iKDhxjGrcvA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/iKDhxjGrcvA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Eryn Krouse",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-12T19:08:14Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "WEQqNFVYpoEm8dK3eshq1nsEa_Y",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "H17i_5-ebrc"
-      },
-      "snippet": {
-        "publishedAt": "2020-09-11T12:16:32Z",
-        "channelId": "UCeSRjhfeeqIgr--AcP9qhyg",
-        "title": "Largest wave surfed - Guinness World Records",
-        "description": "Subscribe to never miss a video! || https://gwr.co/YT-Sub Check out the GWR favourites! || http://gwr.co/YT-Favs ▷ Order Guinness ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/H17i_5-ebrc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/H17i_5-ebrc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/H17i_5-ebrc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Guinness World Records",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-09-11T12:16:32Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "umAmWurspZ9Kn83Sp6M_-SBeW4c",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "xnIvuyPRMug"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-13T19:50:03Z",
-        "channelId": "UC4i3-yfVazfuqwoz71T79Sw",
-        "title": "Wild West: Biggest Swell in Decades Slams California",
-        "description": "Biggest is not always best. And in the case of last week's Wild West swell — the biggest in decades to hit California — truth is, ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Surfline",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-13T19:50:03Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ulFZ4nKQrlXjaTEjUscN_PPmBDo",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "rswJqnz3cn0"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-14T11:00:36Z",
-        "channelId": "UCzcQOTuXYGuCvTekySb_CeQ",
-        "title": "Female Surfers Of Bali - 2022",
-        "description": "After a couple of years of travel restrictions, surfers come back to Bali in big numbers in 2022 with more female surfers than ever in ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/rswJqnz3cn0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/rswJqnz3cn0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/rswJqnz3cn0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Surfers of Bali",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-14T11:00:36Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "uCqGVDd56R_4GhXw6G455uOlWgY",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "OF_sDbSkLYg"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-16T18:00:15Z",
-        "channelId": "UCetqivVVEGv6diBDDM0ItQg",
-        "title": "SURFING PUMPING WAVES, SHAVED HEADS &amp; CRAZY FLOODS // LAKEY PETERSON",
-        "description": "Welcome back everyone! I'm super psyched to share this weeks video with you all as it's an absolute 'banger'. From crazy ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/OF_sDbSkLYg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/OF_sDbSkLYg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/OF_sDbSkLYg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Lakey Peterson",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-16T18:00:15Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "M3oOiWMBH2Qv07_GOyEV7K4bSx4",
-      "id": {
-        "kind": "youtube#channel",
-        "channelId": "UC_F0I7YdfrWZpfHQrFCKxlw"
-      },
-      "snippet": {
-        "publishedAt": "2019-05-11T07:49:42Z",
-        "channelId": "UC_F0I7YdfrWZpfHQrFCKxlw",
-        "title": "Surf A Soft",
-        "description": "Siamo appassionati di SURF e amiamo usare tavole SOFT. Softboards lovers ---- Soft is our religion ---- Soft is fun. ....SOFT IS ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu887dmifhJ9ibx2HbxlS_iNoxs2MeBE2oFRH0JWJA=s88-c-k-c0xffffffff-no-rj-mo"
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu887dmifhJ9ibx2HbxlS_iNoxs2MeBE2oFRH0JWJA=s240-c-k-c0xffffffff-no-rj-mo"
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu887dmifhJ9ibx2HbxlS_iNoxs2MeBE2oFRH0JWJA=s800-c-k-c0xffffffff-no-rj-mo"
-          }
-        },
-        "channelTitle": "Surf A Soft",
-        "liveBroadcastContent": "none",
-        "publishTime": "2019-05-11T07:49:42Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "9h40wvOwq2db8o3qzHafVcTgpFE",
-      "id": {
-        "kind": "youtube#channel",
-        "channelId": "UC1Lnw-08ScgITaKJHV58-UQ"
-      },
-      "snippet": {
-        "publishedAt": "2017-12-24T11:52:07Z",
-        "channelId": "UC1Lnw-08ScgITaKJHV58-UQ",
-        "title": "Top Jet Surfing",
-        "description": "Siamo l'unico punto di riferimento a 360 gradi per i surf a motore. Da noi troverai tutti i nuovi modelli dei Jetsurf a motore a ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu_gheN3ORnekXntIm7_T0K5T0fNhWf8YP9Wxg=s88-c-k-c0xffffffff-no-rj-mo"
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu_gheN3ORnekXntIm7_T0K5T0fNhWf8YP9Wxg=s240-c-k-c0xffffffff-no-rj-mo"
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/ytc/AMLnZu_gheN3ORnekXntIm7_T0K5T0fNhWf8YP9Wxg=s800-c-k-c0xffffffff-no-rj-mo"
-          }
-        },
-        "channelTitle": "Top Jet Surfing",
-        "liveBroadcastContent": "none",
-        "publishTime": "2017-12-24T11:52:07Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "TqFoDQDtpKx9qOW9s25hO9YouOg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "rj7xMBxd5iY"
-      },
-      "snippet": {
-        "publishedAt": "2017-11-12T11:09:52Z",
-        "channelId": "UCiiFGfvlKvX3uzMovO3unaw",
-        "title": "BIG WAVE SURFING COMPILATION 2017",
-        "description": "BIG WAVE SURFING COMPILATION 2017 ** REVISED **AMAZING FOOTAGE ** WITH 60-100FT- HUGE SURF Please ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Absolutely Flawless",
-        "liveBroadcastContent": "none",
-        "publishTime": "2017-11-12T11:09:52Z"
+        "publishTime": "2023-01-17T02:44:15Z"
       }
     }
   ]

@@ -6,9 +6,15 @@ import Banner from "@/components/banner/banner";
 import { getVideos } from "../lib/videos";
 import styles from "@/styles/Home.module.css";
 
-export default function Home() {
+export const getServerSideProps = () => {
   const disneyVideos = getVideos();
 
+  return {
+    props: { disneyVideos },
+  };
+};
+
+export default function Home({ disneyVideos }) {
   return (
     <div className={styles.container}>
       <Head>

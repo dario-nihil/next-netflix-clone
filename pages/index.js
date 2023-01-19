@@ -3,31 +3,12 @@ import Head from "next/head";
 import SectionCards from "@/components/card/section-cards";
 import NavBar from "@/components/nav/navbar";
 import Banner from "@/components/banner/banner";
+import { getVideos } from "../lib/videos";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
-  const disneyVideos = [
-    {
-      id: 0,
-      imgUrl: "/static/clifford.webp",
-    },
-    {
-      id: 1,
-      imgUrl: "/static/clifford.webp",
-    },
-    {
-      id: 2,
-      imgUrl: "/static/clifford.webp",
-    },
-    {
-      id: 3,
-      imgUrl: "/static/clifford.webp",
-    },
-    {
-      id: 4,
-      imgUrl: "/static/clifford.webp",
-    },
-  ];
+  const disneyVideos = getVideos();
+
   return (
     <div className={styles.container}>
       <Head>

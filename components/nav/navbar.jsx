@@ -41,7 +41,6 @@ const NavBar = () => {
   const handleSignOut = async () => {
     try {
       await magic.user.logout();
-      console.log(await magic.user.isLoggedIn()); // => `false`
     } catch (error) {
       console.log("Error logging out", error);
     }

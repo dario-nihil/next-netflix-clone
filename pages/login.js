@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { magic } from "../lib/magic-client";
 
 import styles from "../styles/Login.module.css";
@@ -10,7 +10,22 @@ import styles from "../styles/Login.module.css";
 const Login = () => {
   const [userMsg, setUserMsg] = useState();
   const [email, setEmail] = useState();
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChangeComplete = () => {
+      setIsLoading(false);
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChangeComplete);
+    router.events.on("routeChangeError", handleRouteChangeComplete);
+
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChangeComplete);
+      router.events.off("routeChangeError", handleRouteChangeComplete);
+    };
+  }, [router]);
 
   const handleOnChangeEmail = (e) => {
     setUserMsg("");
@@ -23,19 +38,25 @@ const Login = () => {
     if (email) {
       if (email === "dario.nihil@gmail.com") {
         try {
+          setIsLoading(true);
           const didToken = await magic.auth.loginWithMagicLink({
             email,
           });
           console.log({ didToken });
+          if (didToken) {
+            router.replace("/");
+          }
         } catch (error) {
           // Handle errors if required!
           console.log("Somethig went wrong logging in", error);
+          setIsLoading(false);
         }
         // router.replace("/");
       } else {
         setUserMsg("Something went wrong logging in");
       }
     } else {
+      setIsLoading(false);
       setUserMsg("Enter a valid email address");
     }
   };
@@ -70,7 +91,7 @@ const Login = () => {
           />
           <p className={styles.userMsg}>{userMsg}</p>
           <button onClick={handleLoginWithEmail} className={styles.loginBtn}>
-            Sign In
+            {isLoading ? "Loading..." : "Sing In"}
           </button>
         </div>
       </main>

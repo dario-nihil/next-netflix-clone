@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { magic } from "../lib/magic-client";
 import { Roboto_Slab } from "@next/font/google";
+
+import Loading from "@/components/loading/loading";
 import "@/styles/globals.css";
 
 const robotoSlab = Roboto_Slab({ weight: ["700"], subsets: ["latin"] });
@@ -38,7 +40,7 @@ export default function App({ Component, pageProps }) {
     };
   }, [router]);
 
-  let contentDisplayed = <div>Loading...</div>;
+  let contentDisplayed = <Loading />;
 
   if (!isLoading) {
     contentDisplayed = (

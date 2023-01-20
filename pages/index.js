@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import { magic } from "../lib/magic-client";
 import SectionCards from "@/components/card/section-cards";
 import NavBar from "@/components/nav/navbar";
 import Banner from "@/components/banner/banner";
@@ -34,8 +33,6 @@ export default function Home({
   productivityVideos,
   popularVideos,
 }) {
-  console.log(magic);
-
   return (
     <div className={styles.container}>
       <Head>

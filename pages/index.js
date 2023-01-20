@@ -3,14 +3,24 @@ import Head from "next/head";
 import SectionCards from "@/components/card/section-cards";
 import NavBar from "@/components/nav/navbar";
 import Banner from "@/components/banner/banner";
-import { getPopularVideos, getVideos } from "../lib/videos";
+import {
+  getPopularVideos,
+  getVideos,
+  getVideoForDevelopment,
+} from "../lib/videos";
 import styles from "@/styles/Home.module.css";
 
 export const getServerSideProps = async () => {
-  const disneyVideos = await getVideos("disney trailer");
-  const productivityVideos = await getVideos("productivity trailer");
-  const travelVideos = await getVideos("travel trailer");
-  const popularVideos = await getPopularVideos();
+  // const disneyVideos = await getVideos("disney trailer");
+  // const productivityVideos = await getVideos("productivity trailer");
+  // const travelVideos = await getVideos("travel trailer");
+  // const popularVideos = await getPopularVideos();
+
+  // use this during development to not consume the youtube api credit
+  const disneyVideos = getVideoForDevelopment();
+  const productivityVideos = getVideoForDevelopment();
+  const travelVideos = getVideoForDevelopment();
+  const popularVideos = getVideoForDevelopment();
 
   return {
     props: { disneyVideos, travelVideos, productivityVideos, popularVideos },

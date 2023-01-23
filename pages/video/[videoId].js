@@ -5,6 +5,7 @@ import cls from "classnames";
 import { getVideoById } from "../../lib/videos";
 
 import styles from "../../styles/Video.module.css";
+import NavBar from "@/components/nav/navbar";
 
 Modal.setAppElement("#__next");
 
@@ -38,6 +39,7 @@ const Video = ({ video }) => {
 
   return (
     <div className={styles.container}>
+      <NavBar />
       <Modal
         className={styles.modal}
         isOpen={true}

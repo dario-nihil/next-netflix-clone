@@ -15,7 +15,6 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const checkLogIn = async () => {
       const isLoggedIn = await magic.user.isLoggedIn();
-      console.log({ isLoggedIn });
 
       if (isLoggedIn) {
         setIsLoading(false);

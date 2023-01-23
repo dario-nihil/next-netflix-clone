@@ -10,9 +10,9 @@ const Video = () => {
   const { videoId } = router.query;
 
   return (
-    <>
-      <div>Video Page</div>
+    <div className={styles.container}>
       <Modal
+        className={styles.modal}
         isOpen={true}
         contentLabel="Watch the video"
         onRequestClose={() => {
@@ -22,7 +22,7 @@ const Video = () => {
       >
         <div>Modal body</div>
       </Modal>
-    </>
+    </div>
   );
 };
 

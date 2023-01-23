@@ -2,23 +2,19 @@ import { useRouter } from "next/router";
 import Modal from "react-modal";
 import cls from "classnames";
 
+import { getVideoById } from "../../lib/videos";
+
 import styles from "../../styles/Video.module.css";
-import { NextFetchEvent } from "next/server";
 
 Modal.setAppElement("#__next");
 
-export const getStaticProps = async () => {
-  const video = {
-    title: "Hi cute dog",
-    publishTime: "1990-01-01",
-    description:
-      "A big red dog that is super cute, can he get any bigger? A big red dog that is super cute, can he get any bigger? A big red dog that is super cute, can he get any bigger? A big red dog that is super cute, can he get any bigger? A big red dog that is super cute, can he get any bigger?",
-    channelTitle: "Paramaount Pictures",
-    viewCount: 10000,
-  };
+export const getStaticProps = async (context) => {
+  const { videoId } = context.params;
+  const videoArr = await getVideoById(videoId);
+  console.log({ videoArr });
 
   return {
-    props: { video },
+    props: { video: videoArr.length > 0 ? videoArr[0] : {} },
     revalidate: 10,
   };
 };

@@ -17,9 +17,11 @@ export default function App({ Component, pageProps }) {
       const isLoggedIn = await magic.user.isLoggedIn();
 
       if (isLoggedIn) {
-        setIsLoading(false);
+        //setIsLoading(false);
+        //router.replace("/"); to uncomment later
       } else {
-        setIsLoading(false);
+        // setIsLoading(false);
+        //router.replace("/login"); to uncomment later
       }
     };
 

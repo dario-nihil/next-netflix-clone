@@ -11,16 +11,16 @@ import {
 import styles from "@/styles/Home.module.css";
 
 export const getServerSideProps = async () => {
-  // const disneyVideos = await getVideos("disney trailer");
-  // const productivityVideos = await getVideos("productivity trailer");
-  // const travelVideos = await getVideos("travel trailer");
-  // const popularVideos = await getPopularVideos();
+  const disneyVideos = await getVideos("disney trailer");
+  const productivityVideos = await getVideos("productivity trailer");
+  const travelVideos = await getVideos("travel trailer");
+  const popularVideos = await getPopularVideos();
 
   // use this during development to not consume the youtube api credit
-  const disneyVideos = getVideoForDevelopment();
-  const productivityVideos = getVideoForDevelopment();
-  const travelVideos = getVideoForDevelopment();
-  const popularVideos = getVideoForDevelopment();
+  // const disneyVideos = getVideoForDevelopment();
+  // const productivityVideos = getVideoForDevelopment();
+  // const travelVideos = getVideoForDevelopment();
+  // const popularVideos = getVideoForDevelopment();
 
   return {
     props: { disneyVideos, travelVideos, productivityVideos, popularVideos },
@@ -47,6 +47,7 @@ export default function Home({
       <div className={styles.main}>
         <NavBar />
         <Banner
+          videoId="bKh2G73gCCs"
           title="Clifford the red dog"
           subTitle="a very cute dog"
           imgUrl="/static/clifford.webp"

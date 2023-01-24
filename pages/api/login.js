@@ -1,6 +1,6 @@
 import { magicAdmin } from "../../lib/magic";
 import jwt from "jsonwebtoken";
-import { isNewUser } from "@/lib/db/hasura";
+import { isNewUser, createNewUser } from "@/lib/db/hasura";
 
 const login = async (req, res) => {
   if (req.method === "POST") {
@@ -12,12 +12,7 @@ const login = async (req, res) => {
         throw new Error("Something went wrong");
       }
 
-      const { issuer, ...metadata } = await magicAdmin.users.getMetadataByToken(
-        didToken
-      );
-
-      console.log({ metadata });
-
+      const metadata = await magicAdmin.users.getMetadataByToken(didToken);
       const token = jwt.sign(
         {
           ...metadata,
@@ -26,17 +21,21 @@ const login = async (req, res) => {
           "https://hasura.io/jwt/claims": {
             "x-hasura-allowed-roles": ["user", "admin"],
             "x-hasura-default-role": "user",
-            "x-hasura-user-id": issuer,
+            "x-hasura-user-id": metadata.issuer,
           },
         },
         process.env.JWT_SECRET
       );
 
-      console.log({ token });
+      const isNewUserQuery = await isNewUser(token, metadata.issuer);
 
-      const isNewUserQuery = await isNewUser(token, issuer);
-
-      return res.status(200).json({ done: true, isNewUserQuery });
+      if (isNewUserQuery) {
+        const createNewUserMutation = await createNewUser(token, metadata);
+        console.log({ createNewUserMutation });
+        return res.status(200).json({ done: true, msg: "is a new user" });
+      } else {
+        return res.status(200).json({ done: true, msg: "not a new user" });
+      }
     } catch (error) {
       console.log("Something went wrong logging in", error);
       return res.status(500).json({ done: false });

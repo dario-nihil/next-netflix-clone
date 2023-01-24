@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import { queryHasuraGraphQL } from "../lib/db/hasura";
 import SectionCards from "@/components/card/section-cards";
 import NavBar from "@/components/nav/navbar";
 import Banner from "@/components/banner/banner";
@@ -24,8 +23,6 @@ export default function Home({
   productivityVideos,
   popularVideos,
 }) {
-  queryHasuraGraphQL();
-
   return (
     <div className={styles.container}>
       <Head>

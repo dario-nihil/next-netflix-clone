@@ -1,13 +1,18 @@
+import jwt from "jsonwebtoken";
+
 const stats = async (req, res) => {
   if (req.method === "POST") {
-    const { token } = req.cookies;
-
     try {
+      const { token } = req.cookies;
       if (!token) {
         return res.status(403).json({ message: "Unauthorized" });
       }
 
-      return res.status(200).json({ message: "Done" });
+      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+      console.log({ decoded });
+
+      return res.status(200).json({ message: "Done", decoded });
     } catch (error) {
       console.log("Error occurred /stats", error);
       res

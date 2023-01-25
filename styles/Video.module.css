@@ -114,6 +114,10 @@
   padding-left: 1rem /* 48px */;
 }
 
+.likeBtnWrapper {
+  margin-right: 0.5rem; /* 8px */
+}
+
 .btnWrapper {
   border-color: var(--white10);
   border-style: solid;

@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { useReducer } from "react";
 import Modal from "react-modal";
 import cls from "classnames";
 
@@ -41,11 +42,45 @@ export const getStaticPaths = async () => {
   };
 };
 
+const initialState = {
+  toggleLike: false,
+  toggleDislike: false,
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "like":
+      return {
+        toggleLike: !state.toggleLike,
+        toggleDislike: false,
+      };
+    case "dislike":
+      return {
+        toggleDislike: !state.toggleDislike,
+        toggleLike: false,
+      };
+    default:
+      // maybe throw an error???
+      return state;
+  }
+};
+
 const Video = ({ video }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
   const router = useRouter();
   const { videoId } = router.query;
 
   const { channelTitle, description, publishTime, title, viewCount } = video;
+
+  const handleToggleLike = () => {
+    console.log("Handle Like");
+    dispatch({ type: "like" });
+  };
+
+  const handleToggleDislike = () => {
+    console.log("Handle Dislike");
+    dispatch({ type: "dislike" });
+  };
 
   return (
     <div className={styles.container}>
@@ -70,15 +105,15 @@ const Video = ({ video }) => {
         />
         <div className={styles.likeDislikeBtnWrapper}>
           <div className={styles.likeBtnWrapper}>
-            <button>
+            <button onClick={handleToggleLike}>
               <div className={styles.btnWrapper}>
-                <Like />
+                <Like selected={state.toggleLike} />
               </div>
             </button>
           </div>
-          <button>
+          <button onClick={handleToggleDislike}>
             <div className={styles.btnWrapper}>
-              <DisLike />
+              <DisLike selected={state.toggleDislike} />
             </div>
           </button>
         </div>

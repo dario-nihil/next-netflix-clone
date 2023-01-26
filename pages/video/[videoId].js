@@ -72,6 +72,23 @@ const Video = ({ video }) => {
 
   const { channelTitle, description, publishTime, title, viewCount } = video;
 
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(`/api/stats?videoId=${videoId}`, {
+        method: "GET",
+      });
+
+      const data = await response.json();
+      if (data.findVideo?.length > 0) {
+        const favourited = data.findVideo[0].favourited;
+
+        favourited === 1
+          ? dispatch({ type: "like" })
+          : dispatch({ type: "dislike" });
+      }
+    })();
+  }, [videoId]);
+
   const handleToggleLike = () => {
     dispatch({ type: "like" });
   };

@@ -8,7 +8,7 @@ import {
 const stats = async (req, res) => {
   try {
     const { token } = req.cookies;
-    const { videoId } = req.body;
+    const { videoId } = req.method === "POST" ? req.body : req.query;
 
     if (!token) {
       return res.status(403).json({ message: "Unauthorized" });

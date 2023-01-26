@@ -4,6 +4,7 @@ import {
   updateStats,
   insertStats,
 } from "../../lib/db/hasura";
+import { verifyToken } from "../../lib/utils";
 
 const stats = async (req, res) => {
   try {
@@ -20,8 +21,7 @@ const stats = async (req, res) => {
         .json({ message: "Something went wrong, videoId is required" });
     }
 
-    const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
-    const userId = decodedToken.issuer;
+    const userId = verifyToken(token);
     const findVideo = await findVideoIdByUser(token, userId, videoId);
     const doesStatsExists = findVideo?.length > 0;
 

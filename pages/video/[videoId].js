@@ -73,12 +73,10 @@ const Video = ({ video }) => {
   const { channelTitle, description, publishTime, title, viewCount } = video;
 
   const handleToggleLike = () => {
-    console.log("Handle Like");
     dispatch({ type: "like" });
   };
 
   const handleToggleDislike = () => {
-    console.log("Handle Dislike");
     dispatch({ type: "dislike" });
   };
 

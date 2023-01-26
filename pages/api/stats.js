@@ -6,54 +6,62 @@ import {
 } from "../../lib/db/hasura";
 
 const stats = async (req, res) => {
-  if (req.method === "POST") {
-    try {
-      const { token } = req.cookies;
-      console.log(req.body);
-      const { videoId, favourited, watched = true } = req.body;
-      console.log({ videoId });
+  try {
+    const { token } = req.cookies;
+    const { videoId } = req.body;
 
-      if (!videoId) {
-        return res
-          .status(500)
-          .json({ message: "Something went wrong, videoId is required" });
-      }
+    if (!token) {
+      return res.status(403).json({ message: "Unauthorized" });
+    }
 
-      if (!token) {
-        return res.status(403).json({ message: "Unauthorized" });
-      }
+    if (!videoId) {
+      return res
+        .status(500)
+        .json({ message: "Something went wrong, videoId is required" });
+    }
 
-      const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
-      const userId = decodedToken.issuer;
-      const doesStatsExists = await findVideoIdByUser(token, userId, videoId);
+    const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+    const userId = decodedToken.issuer;
+    const findVideo = await findVideoIdByUser(token, userId, videoId);
+    const doesStatsExists = findVideo?.length > 0;
+
+    if (req.method === "POST") {
+      const { favourited, watched = true } = req.body;
+      let response;
 
       if (doesStatsExists) {
         // update it
-        const response = await updateStats(token, {
+        response = await updateStats(token, {
           videoId,
           userId,
           watched,
           favourited,
         });
-
-        return res.status(201).json({ response });
       } else {
         // create it
-        const response = await insertStats(token, {
+        response = await insertStats(token, {
           videoId,
           userId,
           watched,
           favourited,
         });
-
-        return res.status(201).json({ response });
       }
-    } catch (error) {
-      console.log("Error occurred /stats", error);
-      return res
-        .status(500)
-        .json({ message: "Something went wrong", error: error.messge });
+
+      return res.status(201).json({ response });
     }
+
+    if (req.method === "GET") {
+      if (doesStatsExists) {
+        return res.status(200).json({ findVideo });
+      }
+
+      return res.status(404).json({ video: null, msg: "Video not found" });
+    }
+  } catch (error) {
+    console.log("Error occurred /stats", error);
+    return res
+      .status(500)
+      .json({ message: "Something went wrong", error: error.messge });
   }
 
   res.status(403).json({ message: "Error" });

@@ -2,19 +2,21 @@ import SectionCards from "@/components/card/section-cards";
 import NavBar from "@/components/nav/navbar";
 import Head from "next/head";
 
+import styles from "../../styles/MyList.module.css";
+
 const MyList = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>My List</title>
       </Head>
-      <main>
+      <main className={styles.main}>
         <NavBar />
-        <div>
+        <div className={styles.sectionWrapper}>
           <SectionCards title="Test" videos={[]} size="medium" />
         </div>
       </main>
-    </div>
+    </>
   );
 };
 

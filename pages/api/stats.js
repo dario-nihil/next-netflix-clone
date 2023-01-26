@@ -9,10 +9,14 @@ const stats = async (req, res) => {
   if (req.method === "POST") {
     try {
       const { token } = req.cookies;
+      console.log(req.body);
       const { videoId, favourited, watched = true } = req.body;
+      console.log({ videoId });
 
       if (!videoId) {
-        return res.status(500).json({ message: "Something went wrong" });
+        return res
+          .status(500)
+          .json({ message: "Something went wrong, videoId is required" });
       }
 
       if (!token) {
@@ -32,7 +36,7 @@ const stats = async (req, res) => {
           favourited,
         });
 
-        return res.status(201).json({ data: response });
+        return res.status(201).json({ response });
       } else {
         // create it
         const response = await insertStats(token, {
@@ -42,7 +46,7 @@ const stats = async (req, res) => {
           favourited,
         });
 
-        return res.status(201).json({ data: response });
+        return res.status(201).json({ response });
       }
     } catch (error) {
       console.log("Error occurred /stats", error);

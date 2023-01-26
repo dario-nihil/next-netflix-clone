@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import Modal from "react-modal";
 import cls from "classnames";
 
@@ -81,6 +81,23 @@ const Video = ({ video }) => {
     console.log("Handle Dislike");
     dispatch({ type: "dislike" });
   };
+
+  useEffect(() => {
+    (async () => {
+      if (state.toggleLike || state.toggleDislike) {
+        const response = await fetch("/api/stats", {
+          method: "POST",
+          body: JSON.stringify({
+            videoId,
+            favourited: state.toggleLike ? 1 : 0,
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+    })();
+  }, [state.toggleLike, state.toggleDislike, videoId]);
 
   return (
     <div className={styles.container}>

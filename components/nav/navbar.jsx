@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { magic } from "../../lib/magic-client";
 
 import styles from "./navbar.module.css";
@@ -10,12 +10,13 @@ const NavBar = () => {
   const router = useRouter();
   const [showDropdown, setShowDropdown] = useState(false);
   const [userEmail, setUserEmail] = useState("");
+  let didToken = useRef();
 
   useEffect(() => {
     const getUserEmail = async () => {
       try {
         const { email } = await magic.user.getMetadata();
-        const didToken = await magic.user.getIdToken();
+        didToken.current = await magic.user.getIdToken();
         if (email) {
           setUserEmail(email);
         }
@@ -41,9 +42,16 @@ const NavBar = () => {
 
   const handleSignOut = async () => {
     try {
-      await magic.user.logout();
+      await fetch("/api/logout", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${didToken}`,
+          "Content-Type": "application/json",
+        },
+      });
     } catch (error) {
       console.log("Error logging out", error);
+      router.push("/login");
     }
   };
 

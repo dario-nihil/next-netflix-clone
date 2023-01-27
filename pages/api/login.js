@@ -35,7 +35,7 @@ const login = async (req, res) => {
       setTokenCookie(token, res);
       return res.status(200).json({ done: true });
     } catch (error) {
-      console.log("Something went wrong logging in", error);
+      console.error("Something went wrong logging in");
       return res.status(500).json({ done: false });
     }
   }

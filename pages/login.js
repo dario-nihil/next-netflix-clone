@@ -57,12 +57,12 @@ const Login = () => {
             router.replace("/");
           } else {
             setIsLoading(false);
-            console.log("Somethig went wrong logging in");
+            console.error("Somethig went wrong logging in");
           }
         }
       } catch (error) {
         // Handle errors if required!
-        console.log("Somethig went wrong logging in", error);
+        console.error("Somethig went wrong logging in", error);
         setIsLoading(false);
       }
       // router.replace("/");

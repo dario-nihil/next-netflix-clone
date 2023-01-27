@@ -57,7 +57,7 @@ const stats = async (req, res) => {
       return res.status(404).json({ video: null, msg: "Video not found" });
     }
   } catch (error) {
-    console.log("Error occurred /stats", error);
+    console.error("Error occurred /stats");
     return res
       .status(500)
       .json({ message: "Something went wrong", error: error.messge });

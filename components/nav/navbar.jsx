@@ -21,7 +21,7 @@ const NavBar = () => {
           setUserEmail(email);
         }
       } catch (error) {
-        console.log("Error retrieving email", error);
+        console.error("Error retrieving email");
       }
     };
 
@@ -50,7 +50,7 @@ const NavBar = () => {
         },
       });
     } catch (error) {
-      console.log("Error logging out", error);
+      console.error("Error logging out");
       router.push("/login");
     }
   };

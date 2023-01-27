@@ -7,6 +7,7 @@ import { getVideoById } from "../../lib/videos";
 import NavBar from "@/components/nav/navbar";
 import DisLike from "@/components/icons/dislike-icon";
 import Like from "@/components/icons/like-icon";
+
 import styles from "../../styles/Video.module.css";
 
 Modal.setAppElement("#__next");
@@ -101,7 +102,7 @@ const Video = ({ video }) => {
   useEffect(() => {
     (async () => {
       if (state.toggleLike || state.toggleDislike) {
-        const response = await fetch("/api/stats", {
+        await fetch("/api/stats", {
           method: "POST",
           body: JSON.stringify({
             videoId,

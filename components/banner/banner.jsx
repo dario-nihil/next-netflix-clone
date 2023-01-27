@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
+
 import styles from "./banner.module.css";
 
 const Banner = ({ title, subTitle, imgUrl, videoId }) => {

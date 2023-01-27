@@ -33,6 +33,7 @@ const login = async (req, res) => {
 
       isNewUserQuery && (await createNewUser(token, metadata));
       setTokenCookie(token, res);
+
       return res.status(200).json({ done: true });
     } catch (error) {
       console.error("Something went wrong logging in");

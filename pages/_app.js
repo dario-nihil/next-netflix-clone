@@ -12,22 +12,6 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
-  // useEffect(() => {
-  //   const checkLogIn = async () => {
-  //     const isLoggedIn = await magic.user.isLoggedIn();
-
-  //     if (isLoggedIn) {
-  //       setIsLoading(false);
-  //       //router.replace("/"); to uncomment later
-  //     } else {
-  //       setIsLoading(false);
-  //       //router.replace("/login"); to uncomment later
-  //     }
-  //   };
-
-  //   checkLogIn();
-  // }, []);
-
   useEffect(() => {
     const handleRouteChangeComplete = () => {
       setIsLoading(false);

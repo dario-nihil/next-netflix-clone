@@ -1,4 +1,3 @@
-import jwt from "jsonwebtoken";
 import {
   findVideoIdByUser,
   updateStats,
@@ -21,7 +20,7 @@ const stats = async (req, res) => {
         .json({ message: "Something went wrong, videoId is required" });
     }
 
-    const userId = verifyToken(token);
+    const userId = await verifyToken(token);
     const findVideo = await findVideoIdByUser(token, userId, videoId);
     const doesStatsExists = findVideo?.length > 0;
 

@@ -80,6 +80,7 @@ const Video = ({ video }) => {
 
       const data = await response.json();
       if (data.findVideo?.length > 0) {
+        const foo = data.findVideo[0];
         const favourited = data.findVideo[0].favourited;
 
         favourited === 1

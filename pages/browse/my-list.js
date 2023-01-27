@@ -8,17 +8,17 @@ import styles from "../../styles/MyList.module.css";
 
 export const getServerSideProps = async (context) => {
   const token = context.req ? context.req?.cookies.token : null;
-  const userId = verifyToken(token);
+  const userId = await verifyToken(token);
 
-  if (!userId) {
-    return {
-      props: {},
-      redirect: {
-        destination: "/login",
-        permanent: false,
-      },
-    };
-  }
+  // if (!userId) {
+  //   return {
+  //     props: {},
+  //     redirect: {
+  //       destination: "/login",
+  //       permanent: false,
+  //     },
+  //   };
+  // }
 
   const videos = await getMyList(token, userId);
 
@@ -39,7 +39,7 @@ const MyList = ({ myListVideos }) => {
         <NavBar />
         <div className={styles.sectionWrapper}>
           <SectionCards
-            title="Test"
+            title="Favourited"
             videos={myListVideos}
             size="medium"
             shouldWrap
